@@ -28,7 +28,7 @@ from google.genai import types
 from google.adk.tools.mcp_tool import McpToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnectionParams
 
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.1-flash"
 GCP_PROJECT = os.environ.get("GOOGLE_CLOUD_PROJECT", "geap-poc")
 
 _mcp_token = os.environ.get("MCPToken", "").strip()
